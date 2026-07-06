@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BluePulse Logistics | Chicago 3PL Fulfillment</title>
+    <!--
+      Basic SEO metadata.  In addition to the title above, include
+      description and keyword tags so search engines can properly
+      categorize the page.  These values target prospective clients
+      searching for fulfilment and 3PL services in the Chicago area.
+    -->
+    <meta
+      name="description"
+      content="BluePulse Logistics is a Chicago based 3PL warehouse helping e‑commerce brands scale without the stress. Services include Amazon FBA prep, fulfilment, returns processing, kitting and relabeling."
+    />
+    <meta
+      name="keywords"
+      content="Chicago 3PL, e‑commerce fulfilment, Amazon prep, 3PL warehouse, BluePulse Logistics"
+    />
+    <!-- Link to our stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Footer legal links */
+      .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 0.5rem;
+      }
+      .footer-links a {
+        color: #a3acc2;
+        font-size: 0.9rem;
+        transition: color 0.3s ease;
+      }
+      .footer-links a:hover {
+        color: var(--secondary-color);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <div class="overlay"></div>
+      <div class="hero-content">
+        <!-- Removed rocket emoji from heading to keep the focus on the brand name -->
+        <h1>We’re BluePulse Logistics</h1>
+        <p>Helping e‑commerce brands scale without the stress.</p>
+        <a href="index.html#contact" class="btn-primary">Get a Quote</a>
+      </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <!-- Each service item uses an inline SVG to ensure consistent sizing and colouring.  The
+               paths are sourced from Font Awesome free icons and set to inherit the
+               current colour via the fill attribute on the <path> element. -->
+          <div class="service-item">
+            <span class="service-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 640 512">
+                <!-- box-open icon for Amazon FBA prep -->
+                <path d="M58.9 42.1c3-6.1 9.6-9.6 16.3-8.7L320 64 564.8 33.4c6.7-.8 13.3 2.7 16.3 8.7l41.7 83.4c9 17.9-.6 39.6-19.8 45.1L439.6 217.3c-13.9 4-28.8-1.9-36.2-14.3L320 64 236.6 203c-7.4 12.4-22.3 18.3-36.2 14.3L37.1 170.6c-19.3-5.5-28.8-27.2-19.8-45.1L58.9 42.1zM321.1 128l54.9 91.4c14.9 24.8 44.6 36.6 72.5 28.6L576 211.6l0 167c0 22-15 41.2-36.4 46.6l-204.1 51c-10.2 2.6-20.9 2.6-31 0l-204.1-51C79 419.7 64 400.5 64 378.5l0-167L191.6 248c27.8 8 57.6-3.8 72.5-28.6L318.9 128l2.2 0z" />
+              </svg>
+            </span>
+            <h3>Amazon FBA Prep</h3>
+          </div>
+          <div class="service-item">
+            <span class="service-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 640 512">
+                <!-- truck-fast icon for Fulfilment -->
+                <path d="M112 0C85.5 0 64 21.5 64 48l0 48L16 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 208 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 160l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 176 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 224l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 144 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 288l0 128c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64 0-32 0-18.7c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7L416 96l0-48c0-26.5-21.5-48-48-48L112 0zM544 237.3l0 18.7-128 0 0-96 50.7 0L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
+              </svg>
+            </span>
+            <h3>Fulfillment</h3>
+          </div>
+          <div class="service-item">
+            <span class="service-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 512 512">
+                <!-- arrows-rotate icon for Returns Processing -->
+                <path d="M105.1 202.6c7.7-21.8 20.2-42.3 37.8-59.8c62.5-62.5 163.8-62.5 226.3 0L386.3 160 352 160c-17.7 0-32 14.3-32 32s14.3 32 32 32l111.5 0c0 0 0 0 0 0l.4 0c17.7 0 32-14.3 32-32l0-112c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 35.2L414.4 97.6c-87.5-87.5-229.3-87.5-316.8 0C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5zM39 289.3c-5 1.5-9.8 4.2-13.7 8.2c-4 4-6.7 8.8-8.1 14c-.3 1.2-.6 2.5-.8 3.8c-.3 1.7-.4 3.4-.4 5.1L16 432c0 17.7 14.3 32 32 32s32-14.3 32-32l0-35.1 17.6 17.5c0 0 0 0 0 0c87.5 87.4 229.3 87.4 316.7 0c24.4-24.4 42.1-53.1 52.9-83.8c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.5 62.5-163.8 62.5-226.3 0l-.1-.1L125.6 352l34.4 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L48.4 288c-1.6 0-3.2 .1-4.8 .3s-3.1 .5-4.6 1z" />
+              </svg>
+            </span>
+            <h3>Returns Processing</h3>
+          </div>
+          <div class="service-item">
+            <span class="service-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 640 512">
+                <!-- boxes-stacked icon for Kitting & Assembly -->
+                <path d="M248 0L208 0c-26.5 0-48 21.5-48 48v112c0 35.3 28.7 64 64 64h128c35.3 0 64-28.7 64-64V48c0-26.5-21.5-48-48-48h-40v80c0 8.8-7.2 16-16 16h-48c-8.8 0-16-7.2-16-16V0zM64 256c-35.3 0-64 28.7-64 64V448c0 35.3 28.7 64 64 64h160c35.3 0 64-28.7 64-64V320c0-35.3-28.7-64-64-64h-40v80c0 8.8-7.2 16-16 16h-48c-8.8 0-16-7.2-16-16v-80H64zm288 256h160c35.3 0 64-28.7 64-64V320c0-35.3-28.7-64-64-64h-40v80c0 8.8-7.2 16-16 16h-48c-8.8 0-16-7.2-16-16v-80h-40c-15 0-28.8 5.1-39.7 13.8c4.9 10.4 7.7 22 7.7 34.2V448c0 12.2-2.8 23.8-7.7 34.2c10.9 8.7 24.7 13.8 39.7 13.8z" />
+              </svg>
+            </span>
+            <h3>Kitting &amp; Assembly</h3>
+          </div>
+          <div class="service-item">
+            <span class="service-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 448 512">
+                <!-- tag icon for Relabeling -->
+                <path d="M0 80L0 229.5c0 17 6.7 33.3 18.7 45.3l176 176c25 25 65.5 25 90.5 0L418.7 317.3c25-25 25-65.5 0-90.5l-176-176c-12-12-28.3-18.7-45.3-18.7L48 32C21.5 32 0 53.5 0 80zm112 32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
+              </svg>
+            </span>
+            <h3>Relabeling</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why" class="why">
+      <div class="container">
+        <h2>Why Choose Us</h2>
+        <div class="why-grid">
+          <!-- Each item pairs a compact SVG icon with a short descriptor.  Icons
+               are inline so they can inherit the accent colour via CSS. -->
+          <div class="why-item">
+            <span class="why-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 512 512">
+                <!-- clock icon for Fast -->
+                <path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120v136c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+              </svg>
+            </span>
+            <h3>Fast</h3>
+          </div>
+          <div class="why-item">
+            <span class="why-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 448 512">
+                <!-- square-check icon for Accurate -->
+                <path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm273 177L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" />
+              </svg>
+            </span>
+            <h3>Accurate</h3>
+          </div>
+          <div class="why-item">
+            <span class="why-icon">
+              <svg aria-hidden="true" focusable="false" viewBox="0 0 512 512">
+                <!-- chart-simple icon for Scalable -->
+                <path d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48h-32c-26.5 0-48-21.5-48-48V80zm-160 192c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48v160c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zm368-176h32c26.5 0 48 21.5 48 48v288c0 26.5-21.5 48-48 48h-32c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z" />
+              </svg>
+            </span>
+            <h3>Scalable</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>
+          Ready to streamline your e‑commerce fulfilment? Send us a message and
+          we’ll get back to you shortly.
+        </p>
+        <form method='POST' name='contact'>
+          <!-- Netlify form settings: include hidden form name and honeypot field for spam prevention -->
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>Don’t fill this out: <input name="bot-field" /></label>
+          </p>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-flex">
+        <div class="footer-left">
+          <img src="assets/logo.png" alt="BluePulse Logistics logo" />
+          <p>Chicago, IL</p>
+          <!-- Updated phone number per client request -->
+          <p>Phone: 708 427 5032</p>
+          <!-- Added email address -->
+          <p>Email: <a href="mailto:info@bluepulselogistics.com">info@bluepulselogistics.com</a></p>
+        </div>
+        <div class="footer-right">
+          <a href="index.html#home" class="footer-logo">BluePulse Logistics</a>
+          <div class="social-links">
+            <a href="index.html#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="index.html#" aria-label="Facebook">Facebook</a>
+            <!-- Added Instagram link -->
+            <a href="https://www.instagram.com/bluepulselogistics?igsh=MWE3aXNuZzh0MmhoZA%3D%3D&utm_source=qr" aria-label="Instagram">Instagram</a>
+            <!-- Added TikTok link -->
+            <a href="https://www.tiktok.com/@bluepulselogistics?_t=ZT-8zLG9kw2bE5&_r=1" aria-label="TikTok">TikTok</a>
+          </div>
+          <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+            <a href="contact-us.html">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; <span id="year"></span> BluePulse Logistics. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Small script to insert current year in the footer -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  
+</body>
+</html>
